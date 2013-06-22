@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Checklist Sandbox
+Bundle-SymbolicName: org.ustok.checklist.ui.sandbox
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Ustok.org
+Fragment-Host: org.ustok.checklist.ui;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
