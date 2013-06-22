@@ -1,0 +1,32 @@
+@GenModel(documentation = "Model object. Contains the root node.", copyrightFields="true", copyrightText="Copyright 2013 by Ustok.org.\nAll rights reserved.\n")
+
+package org.ustok.checklist.model.checklistcfg
+
+annotation "http://www.eclipse.org/emf/2002/GenModel" as GenModel
+
+@GenModel(documentation = "Model object. Contains the root node.")
+class CLCfg {
+	contains CLNode root
+}
+
+@GenModel(documentation = "A node in the cfg. Has a text and an optional description. The root node has no parent. Each node can have children. Optionally, each node can specify a special target node depending the result on the processing of the node in the checklist.")
+class CLNode {
+	
+	@GenModel(documentation = "The text to show in the checklist.")
+	String text
+	
+	@GenModel(documentation = "The description to show in the checklist.")
+	String description
+	
+	@GenModel(documentation = "The children of the node.")
+	contains CLNode[] children opposite parent
+	
+	@GenModel(documentation = "The node parent. The root node has no parent.")
+	refers CLNode parent opposite children
+	
+	@GenModel(documentation = "The special target to go to in the checklist when the node is 'passed'. Leave null if you want to step to the next node in line.")
+	refers CLNode targetIfPassed
+	
+	@GenModel(documentation = "The special target to go to in the checklist when the node is 'failed'. Leave null if you want to step to the next node in line.")
+	refers CLNode tragetIfFailed
+}

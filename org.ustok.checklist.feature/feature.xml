@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.ustok.checklist.feature"
+      label="Checklist"
+      version="1.0.0.qualifier"
+      provider-name="Ustok.org">
+
+   <description url="http://www.ustok.org/">
+      Checklist lets you define checklists, process them and export the process protocols.
+   </description>
+
+   <copyright>
+      Copyright 2013 by Ustok.org.
+All rights reserved.
+   </copyright>
+
+   <license url="http://www.eclipse.org/legal/epl-v10.html">
+      Eclipse Public License - v 1.0
+   </license>
+
+   <url>
+      <discovery label="Ustok.org home" url="http://www.ustok.org"/>
+   </url>
+
+   <plugin
+         id="org.ustok.checklist.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.io"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.io.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+
+</feature>
