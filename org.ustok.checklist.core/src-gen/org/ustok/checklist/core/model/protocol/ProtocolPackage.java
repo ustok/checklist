@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol;
+package org.ustok.checklist.core.model.protocol;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -26,9 +26,9 @@ import org.eclipse.emf.ecore.EReference;
  * <!-- begin-model-doc -->
  * Protocol
  * <!-- end-model-doc -->
- * @see org.ustok.checklist.model.protocol.ProtocolFactory
+ * @see org.ustok.checklist.core.model.protocol.ProtocolFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/GenModel copyrightFields='true' copyrightText='Copyright 2013 by Ustok.org.\nAll rights reserved.\n' basePackage='org.ustok.checklist.model'"
+ *        annotation="http://www.eclipse.org/emf/2002/GenModel copyrightFields='true' copyrightText='Copyright 2013 by Ustok.org.\nAll rights reserved.\n' basePackage='org.ustok.checklist.core.model'"
  *        annotation="http://www.eclipse.org/emf/2011/Xcore GenModel='http://www.eclipse.org/emf/2002/GenModel'"
  * @generated
  */
@@ -55,7 +55,7 @@ public interface ProtocolPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_URI = "org.ustok.checklist.model.protocol";
+  String eNS_URI = "org.ustok.checklist.core.model.protocol";
 
   /**
    * The package namespace name.
@@ -71,14 +71,14 @@ public interface ProtocolPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  ProtocolPackage eINSTANCE = org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl.init();
+  ProtocolPackage eINSTANCE = org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl.init();
 
   /**
-   * The meta object id for the '{@link org.ustok.checklist.model.protocol.impl.ProtocolImpl <em>Protocol</em>}' class.
+   * The meta object id for the '{@link org.ustok.checklist.core.model.protocol.impl.ProtocolImpl <em>Protocol</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.ustok.checklist.model.protocol.impl.ProtocolImpl
-   * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getProtocol()
+   * @see org.ustok.checklist.core.model.protocol.impl.ProtocolImpl
+   * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getProtocol()
    * @generated
    */
   int PROTOCOL = 0;
@@ -120,11 +120,11 @@ public interface ProtocolPackage extends EPackage
   int PROTOCOL_OPERATION_COUNT = 0;
 
   /**
-   * The meta object id for the '{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl <em>Node</em>}' class.
+   * The meta object id for the '{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl <em>Node</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl
-   * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getProtocolNode()
+   * @see org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl
+   * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getProtocolNode()
    * @generated
    */
   int PROTOCOL_NODE = 1;
@@ -193,119 +193,119 @@ public interface ProtocolPackage extends EPackage
   int PROTOCOL_NODE_OPERATION_COUNT = 0;
 
   /**
-   * The meta object id for the '{@link org.ustok.checklist.model.protocol.State <em>State</em>}' enum.
+   * The meta object id for the '{@link org.ustok.checklist.core.model.protocol.State <em>State</em>}' enum.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.ustok.checklist.model.protocol.State
-   * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getState()
+   * @see org.ustok.checklist.core.model.protocol.State
+   * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getState()
    * @generated
    */
   int STATE = 2;
 
 
   /**
-   * Returns the meta object for class '{@link org.ustok.checklist.model.protocol.Protocol <em>Protocol</em>}'.
+   * Returns the meta object for class '{@link org.ustok.checklist.core.model.protocol.Protocol <em>Protocol</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for class '<em>Protocol</em>'.
-   * @see org.ustok.checklist.model.protocol.Protocol
+   * @see org.ustok.checklist.core.model.protocol.Protocol
    * @generated
    */
   EClass getProtocol();
 
   /**
-   * Returns the meta object for the containment reference '{@link org.ustok.checklist.model.protocol.Protocol#getRoot <em>Root</em>}'.
+   * Returns the meta object for the containment reference '{@link org.ustok.checklist.core.model.protocol.Protocol#getRoot <em>Root</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference '<em>Root</em>'.
-   * @see org.ustok.checklist.model.protocol.Protocol#getRoot()
+   * @see org.ustok.checklist.core.model.protocol.Protocol#getRoot()
    * @see #getProtocol()
    * @generated
    */
   EReference getProtocol_Root();
 
   /**
-   * Returns the meta object for the containment reference '{@link org.ustok.checklist.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}'.
+   * Returns the meta object for the containment reference '{@link org.ustok.checklist.core.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference '<em>Cfg Model</em>'.
-   * @see org.ustok.checklist.model.protocol.Protocol#getCfgModel()
+   * @see org.ustok.checklist.core.model.protocol.Protocol#getCfgModel()
    * @see #getProtocol()
    * @generated
    */
   EReference getProtocol_CfgModel();
 
   /**
-   * Returns the meta object for class '{@link org.ustok.checklist.model.protocol.ProtocolNode <em>Node</em>}'.
+   * Returns the meta object for class '{@link org.ustok.checklist.core.model.protocol.ProtocolNode <em>Node</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for class '<em>Node</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode
    * @generated
    */
   EClass getProtocolNode();
 
   /**
-   * Returns the meta object for the attribute '{@link org.ustok.checklist.model.protocol.ProtocolNode#getInfo <em>Info</em>}'.
+   * Returns the meta object for the attribute '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getInfo <em>Info</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Info</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getInfo()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getInfo()
    * @see #getProtocolNode()
    * @generated
    */
   EAttribute getProtocolNode_Info();
 
   /**
-   * Returns the meta object for the attribute '{@link org.ustok.checklist.model.protocol.ProtocolNode#getState <em>State</em>}'.
+   * Returns the meta object for the attribute '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getState <em>State</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>State</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getState()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getState()
    * @see #getProtocolNode()
    * @generated
    */
   EAttribute getProtocolNode_State();
 
   /**
-   * Returns the meta object for the reference '{@link org.ustok.checklist.model.protocol.ProtocolNode#getNode <em>Node</em>}'.
+   * Returns the meta object for the reference '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getNode <em>Node</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the reference '<em>Node</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getNode()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getNode()
    * @see #getProtocolNode()
    * @generated
    */
   EReference getProtocolNode_Node();
 
   /**
-   * Returns the meta object for the containment reference list '{@link org.ustok.checklist.model.protocol.ProtocolNode#getChildren <em>Children</em>}'.
+   * Returns the meta object for the containment reference list '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getChildren <em>Children</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference list '<em>Children</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getChildren()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getChildren()
    * @see #getProtocolNode()
    * @generated
    */
   EReference getProtocolNode_Children();
 
   /**
-   * Returns the meta object for the container reference '{@link org.ustok.checklist.model.protocol.ProtocolNode#getParent <em>Parent</em>}'.
+   * Returns the meta object for the container reference '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getParent <em>Parent</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the container reference '<em>Parent</em>'.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getParent()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getParent()
    * @see #getProtocolNode()
    * @generated
    */
   EReference getProtocolNode_Parent();
 
   /**
-   * Returns the meta object for enum '{@link org.ustok.checklist.model.protocol.State <em>State</em>}'.
+   * Returns the meta object for enum '{@link org.ustok.checklist.core.model.protocol.State <em>State</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for enum '<em>State</em>'.
-   * @see org.ustok.checklist.model.protocol.State
+   * @see org.ustok.checklist.core.model.protocol.State
    * @generated
    */
   EEnum getState();
@@ -335,11 +335,11 @@ public interface ProtocolPackage extends EPackage
   interface Literals
   {
     /**
-     * The meta object literal for the '{@link org.ustok.checklist.model.protocol.impl.ProtocolImpl <em>Protocol</em>}' class.
+     * The meta object literal for the '{@link org.ustok.checklist.core.model.protocol.impl.ProtocolImpl <em>Protocol</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.ustok.checklist.model.protocol.impl.ProtocolImpl
-     * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getProtocol()
+     * @see org.ustok.checklist.core.model.protocol.impl.ProtocolImpl
+     * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getProtocol()
      * @generated
      */
     EClass PROTOCOL = eINSTANCE.getProtocol();
@@ -361,11 +361,11 @@ public interface ProtocolPackage extends EPackage
     EReference PROTOCOL__CFG_MODEL = eINSTANCE.getProtocol_CfgModel();
 
     /**
-     * The meta object literal for the '{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl <em>Node</em>}' class.
+     * The meta object literal for the '{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl <em>Node</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl
-     * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getProtocolNode()
+     * @see org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl
+     * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getProtocolNode()
      * @generated
      */
     EClass PROTOCOL_NODE = eINSTANCE.getProtocolNode();
@@ -411,11 +411,11 @@ public interface ProtocolPackage extends EPackage
     EReference PROTOCOL_NODE__PARENT = eINSTANCE.getProtocolNode_Parent();
 
     /**
-     * The meta object literal for the '{@link org.ustok.checklist.model.protocol.State <em>State</em>}' enum.
+     * The meta object literal for the '{@link org.ustok.checklist.core.model.protocol.State <em>State</em>}' enum.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.ustok.checklist.model.protocol.State
-     * @see org.ustok.checklist.model.protocol.impl.ProtocolPackageImpl#getState()
+     * @see org.ustok.checklist.core.model.protocol.State
+     * @see org.ustok.checklist.core.model.protocol.impl.ProtocolPackageImpl#getState()
      * @generated
      */
     EEnum STATE = eINSTANCE.getState();

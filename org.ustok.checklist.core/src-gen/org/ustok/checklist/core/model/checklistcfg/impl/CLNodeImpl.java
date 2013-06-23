@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg.impl;
+package org.ustok.checklist.core.model.checklistcfg.impl;
 
 import java.util.Collection;
 
@@ -22,8 +22,8 @@ import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
 
-import org.ustok.checklist.model.checklistcfg.CLNode;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
 
 /**
  * <!-- begin-user-doc -->
@@ -32,12 +32,12 @@ import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getText <em>Text</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getDescription <em>Description</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getChildren <em>Children</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getParent <em>Parent</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getTargetIfPassed <em>Target If Passed</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl#getTragetIfFailed <em>Traget If Failed</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getText <em>Text</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getDescription <em>Description</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getChildren <em>Children</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getParent <em>Parent</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getTargetIfPassed <em>Target If Passed</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl#getTragetIfFailed <em>Traget If Failed</em>}</li>
  * </ul>
  * </p>
  *

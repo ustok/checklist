@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol.impl;
+package org.ustok.checklist.core.model.protocol.impl;
 
 import java.util.Collection;
 
@@ -22,11 +22,11 @@ import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
 
-import org.ustok.checklist.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 
-import org.ustok.checklist.model.protocol.ProtocolNode;
-import org.ustok.checklist.model.protocol.ProtocolPackage;
-import org.ustok.checklist.model.protocol.State;
+import org.ustok.checklist.core.model.protocol.ProtocolNode;
+import org.ustok.checklist.core.model.protocol.ProtocolPackage;
+import org.ustok.checklist.core.model.protocol.State;
 
 /**
  * <!-- begin-user-doc -->
@@ -35,11 +35,11 @@ import org.ustok.checklist.model.protocol.State;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl#getInfo <em>Info</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl#getState <em>State</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl#getNode <em>Node</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl#getChildren <em>Children</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolNodeImpl#getParent <em>Parent</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl#getInfo <em>Info</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl#getState <em>State</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl#getNode <em>Node</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl#getChildren <em>Children</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolNodeImpl#getParent <em>Parent</em>}</li>
  * </ul>
  * </p>
  *

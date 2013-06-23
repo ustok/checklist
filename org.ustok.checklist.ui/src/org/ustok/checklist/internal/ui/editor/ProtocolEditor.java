@@ -22,9 +22,9 @@ import org.eclipse.ui.IEditorSite;
 import org.eclipse.ui.IFileEditorInput;
 import org.eclipse.ui.PartInitException;
 import org.ustok.checklist.core.io.EmfFileIoFactory;
+import org.ustok.checklist.core.model.protocol.Protocol;
 import org.ustok.checklist.internal.ui.DefaultModelFactory;
 import org.ustok.checklist.internal.ui.control.ProtocolControl;
-import org.ustok.checklist.model.protocol.Protocol;
 import org.ustok.checklist.ui.ChecklistUIActivator;
 
 /**

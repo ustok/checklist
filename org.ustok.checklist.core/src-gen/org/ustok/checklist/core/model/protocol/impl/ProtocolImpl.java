@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol.impl;
+package org.ustok.checklist.core.model.protocol.impl;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -14,11 +14,11 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
-import org.ustok.checklist.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
 
-import org.ustok.checklist.model.protocol.Protocol;
-import org.ustok.checklist.model.protocol.ProtocolNode;
-import org.ustok.checklist.model.protocol.ProtocolPackage;
+import org.ustok.checklist.core.model.protocol.Protocol;
+import org.ustok.checklist.core.model.protocol.ProtocolNode;
+import org.ustok.checklist.core.model.protocol.ProtocolPackage;
 
 /**
  * <!-- begin-user-doc -->
@@ -27,8 +27,8 @@ import org.ustok.checklist.model.protocol.ProtocolPackage;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolImpl#getRoot <em>Root</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.impl.ProtocolImpl#getCfgModel <em>Cfg Model</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolImpl#getRoot <em>Root</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.impl.ProtocolImpl#getCfgModel <em>Cfg Model</em>}</li>
  * </ul>
  * </p>
  *

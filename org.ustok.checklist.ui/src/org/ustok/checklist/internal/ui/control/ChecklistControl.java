@@ -12,9 +12,9 @@ import org.eclipse.jface.viewers.TreeViewer;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.ToolBar;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
 import org.ustok.checklist.internal.ui.control.checklist.action.ActionCreateCLNode;
 import org.ustok.checklist.internal.ui.control.checklist.action.ActionRemoveCLNode;
-import org.ustok.checklist.model.checklistcfg.CLCfg;
 
 /**
  * Control for {@link CLCfg}.

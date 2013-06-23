@@ -24,9 +24,9 @@ import org.eclipse.ui.IEditorSite;
 import org.eclipse.ui.IFileEditorInput;
 import org.eclipse.ui.PartInitException;
 import org.ustok.checklist.core.io.EmfFileIoFactory;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
 import org.ustok.checklist.internal.ui.DefaultModelFactory;
 import org.ustok.checklist.internal.ui.control.ChecklistControl;
-import org.ustok.checklist.model.checklistcfg.CLCfg;
 import org.ustok.checklist.ui.ChecklistUIActivator;
 
 /**

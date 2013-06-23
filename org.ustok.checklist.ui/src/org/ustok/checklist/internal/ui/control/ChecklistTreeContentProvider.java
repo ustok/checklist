@@ -7,8 +7,8 @@ package org.ustok.checklist.internal.ui.control;
 
 import org.eclipse.jface.viewers.ITreeContentProvider;
 import org.eclipse.jface.viewers.Viewer;
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 
 /**
  * Tree content provider for {@link CLCfg} models.

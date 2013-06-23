@@ -3,13 +3,13 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol;
+package org.ustok.checklist.core.model.protocol;
 
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.ustok.checklist.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 
 /**
  * <!-- begin-user-doc -->
@@ -23,15 +23,15 @@ import org.ustok.checklist.model.checklistcfg.CLNode;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.protocol.ProtocolNode#getInfo <em>Info</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.ProtocolNode#getState <em>State</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.ProtocolNode#getNode <em>Node</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.ProtocolNode#getChildren <em>Children</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.ProtocolNode#getParent <em>Parent</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getInfo <em>Info</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getState <em>State</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getNode <em>Node</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getChildren <em>Children</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getParent <em>Parent</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode()
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode()
  * @model
  * @generated
  */
@@ -53,14 +53,14 @@ public interface ProtocolNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Info</em>' attribute.
    * @see #setInfo(String)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode_Info()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode_Info()
    * @model unique="false"
    * @generated
    */
   String getInfo();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.ProtocolNode#getInfo <em>Info</em>}' attribute.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getInfo <em>Info</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Info</em>' attribute.
@@ -71,27 +71,27 @@ public interface ProtocolNode extends EObject
 
   /**
    * Returns the value of the '<em><b>State</b></em>' attribute.
-   * The literals are from the enumeration {@link org.ustok.checklist.model.protocol.State}.
+   * The literals are from the enumeration {@link org.ustok.checklist.core.model.protocol.State}.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * <!-- begin-model-doc -->
    * Status for this node.
    * <!-- end-model-doc -->
    * @return the value of the '<em>State</em>' attribute.
-   * @see org.ustok.checklist.model.protocol.State
+   * @see org.ustok.checklist.core.model.protocol.State
    * @see #setState(State)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode_State()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode_State()
    * @model unique="false"
    * @generated
    */
   State getState();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.ProtocolNode#getState <em>State</em>}' attribute.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getState <em>State</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>State</em>' attribute.
-   * @see org.ustok.checklist.model.protocol.State
+   * @see org.ustok.checklist.core.model.protocol.State
    * @see #getState()
    * @generated
    */
@@ -106,14 +106,14 @@ public interface ProtocolNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Node</em>' reference.
    * @see #setNode(CLNode)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode_Node()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode_Node()
    * @model
    * @generated
    */
   CLNode getNode();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.ProtocolNode#getNode <em>Node</em>}' reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getNode <em>Node</em>}' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Node</em>' reference.
@@ -124,16 +124,16 @@ public interface ProtocolNode extends EObject
 
   /**
    * Returns the value of the '<em><b>Children</b></em>' containment reference list.
-   * The list contents are of type {@link org.ustok.checklist.model.protocol.ProtocolNode}.
-   * It is bidirectional and its opposite is '{@link org.ustok.checklist.model.protocol.ProtocolNode#getParent <em>Parent</em>}'.
+   * The list contents are of type {@link org.ustok.checklist.core.model.protocol.ProtocolNode}.
+   * It is bidirectional and its opposite is '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getParent <em>Parent</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * <!-- begin-model-doc -->
    * The children of the node.
    * <!-- end-model-doc -->
    * @return the value of the '<em>Children</em>' containment reference list.
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode_Children()
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getParent
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode_Children()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getParent
    * @model opposite="parent" containment="true"
    * @generated
    */
@@ -141,7 +141,7 @@ public interface ProtocolNode extends EObject
 
   /**
    * Returns the value of the '<em><b>Parent</b></em>' container reference.
-   * It is bidirectional and its opposite is '{@link org.ustok.checklist.model.protocol.ProtocolNode#getChildren <em>Children</em>}'.
+   * It is bidirectional and its opposite is '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getChildren <em>Children</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * <!-- begin-model-doc -->
@@ -149,15 +149,15 @@ public interface ProtocolNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Parent</em>' container reference.
    * @see #setParent(ProtocolNode)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocolNode_Parent()
-   * @see org.ustok.checklist.model.protocol.ProtocolNode#getChildren
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocolNode_Parent()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode#getChildren
    * @model opposite="children" transient="false"
    * @generated
    */
   ProtocolNode getParent();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.ProtocolNode#getParent <em>Parent</em>}' container reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.ProtocolNode#getParent <em>Parent</em>}' container reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Parent</em>' container reference.

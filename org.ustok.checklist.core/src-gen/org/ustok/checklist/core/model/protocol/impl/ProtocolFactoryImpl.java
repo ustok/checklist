@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol.impl;
+package org.ustok.checklist.core.model.protocol.impl;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EDataType;
@@ -14,7 +14,7 @@ import org.eclipse.emf.ecore.impl.EFactoryImpl;
 
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
 
-import org.ustok.checklist.model.protocol.*;
+import org.ustok.checklist.core.model.protocol.*;
 
 /**
  * <!-- begin-user-doc -->

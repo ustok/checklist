@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg.util;
+package org.ustok.checklist.core.model.checklistcfg.util;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -12,14 +12,14 @@ import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.ustok.checklist.model.checklistcfg.*;
+import org.ustok.checklist.core.model.checklistcfg.*;
 
 /**
  * <!-- begin-user-doc -->
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage
+ * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage
  * @generated
  */
 public class ChecklistcfgAdapterFactory extends AdapterFactoryImpl
@@ -117,13 +117,13 @@ public class ChecklistcfgAdapterFactory extends AdapterFactoryImpl
 
 
   /**
-   * Creates a new adapter for an object of class '{@link org.ustok.checklist.model.checklistcfg.CLCfg <em>CL Cfg</em>}'.
+   * Creates a new adapter for an object of class '{@link org.ustok.checklist.core.model.checklistcfg.CLCfg <em>CL Cfg</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.ustok.checklist.model.checklistcfg.CLCfg
+   * @see org.ustok.checklist.core.model.checklistcfg.CLCfg
    * @generated
    */
   public Adapter createCLCfgAdapter()
@@ -132,13 +132,13 @@ public class ChecklistcfgAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link org.ustok.checklist.model.checklistcfg.CLNode <em>CL Node</em>}'.
+   * Creates a new adapter for an object of class '{@link org.ustok.checklist.core.model.checklistcfg.CLNode <em>CL Node</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode
    * @generated
    */
   public Adapter createCLNodeAdapter()

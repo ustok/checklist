@@ -3,11 +3,11 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol;
+package org.ustok.checklist.core.model.protocol;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.ustok.checklist.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
 
 /**
  * <!-- begin-user-doc -->
@@ -21,12 +21,12 @@ import org.ustok.checklist.model.checklistcfg.CLCfg;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.protocol.Protocol#getRoot <em>Root</em>}</li>
- *   <li>{@link org.ustok.checklist.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.Protocol#getRoot <em>Root</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocol()
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocol()
  * @model
  * @generated
  */
@@ -48,14 +48,14 @@ public interface Protocol extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Root</em>' containment reference.
    * @see #setRoot(ProtocolNode)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocol_Root()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocol_Root()
    * @model containment="true"
    * @generated
    */
   ProtocolNode getRoot();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.Protocol#getRoot <em>Root</em>}' containment reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.Protocol#getRoot <em>Root</em>}' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Root</em>' containment reference.
@@ -73,14 +73,14 @@ public interface Protocol extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Cfg Model</em>' containment reference.
    * @see #setCfgModel(CLCfg)
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#getProtocol_CfgModel()
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getProtocol_CfgModel()
    * @model containment="true"
    * @generated
    */
   CLCfg getCfgModel();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}' containment reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.protocol.Protocol#getCfgModel <em>Cfg Model</em>}' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Cfg Model</em>' containment reference.

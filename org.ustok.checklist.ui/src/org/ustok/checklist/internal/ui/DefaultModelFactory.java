@@ -5,12 +5,12 @@
 
 package org.ustok.checklist.internal.ui;
 
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgFactory;
-import org.ustok.checklist.model.protocol.Protocol;
-import org.ustok.checklist.model.protocol.ProtocolFactory;
-import org.ustok.checklist.model.protocol.ProtocolNode;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgFactory;
+import org.ustok.checklist.core.model.protocol.Protocol;
+import org.ustok.checklist.core.model.protocol.ProtocolFactory;
+import org.ustok.checklist.core.model.protocol.ProtocolNode;
 
 /**
  * Factory to create the default models.

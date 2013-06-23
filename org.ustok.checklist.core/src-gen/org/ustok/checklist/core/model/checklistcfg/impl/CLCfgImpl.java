@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg.impl;
+package org.ustok.checklist.core.model.checklistcfg.impl;
 
 import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
@@ -14,9 +14,9 @@ import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
 
 /**
  * <!-- begin-user-doc -->
@@ -25,7 +25,7 @@ import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
  * <p>
  * The following features are implemented:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.impl.CLCfgImpl#getRoot <em>Root</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.impl.CLCfgImpl#getRoot <em>Root</em>}</li>
  * </ul>
  * </p>
  *

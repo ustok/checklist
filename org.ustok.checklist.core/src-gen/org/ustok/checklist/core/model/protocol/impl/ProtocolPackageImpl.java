@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol.impl;
+package org.ustok.checklist.core.model.protocol.impl;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -14,13 +14,13 @@ import org.eclipse.emf.ecore.EcorePackage;
 
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
 
-import org.ustok.checklist.model.protocol.Protocol;
-import org.ustok.checklist.model.protocol.ProtocolFactory;
-import org.ustok.checklist.model.protocol.ProtocolNode;
-import org.ustok.checklist.model.protocol.ProtocolPackage;
-import org.ustok.checklist.model.protocol.State;
+import org.ustok.checklist.core.model.protocol.Protocol;
+import org.ustok.checklist.core.model.protocol.ProtocolFactory;
+import org.ustok.checklist.core.model.protocol.ProtocolNode;
+import org.ustok.checklist.core.model.protocol.ProtocolPackage;
+import org.ustok.checklist.core.model.protocol.State;
 
 /**
  * <!-- begin-user-doc -->
@@ -69,7 +69,7 @@ public class ProtocolPackageImpl extends EPackageImpl implements ProtocolPackage
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @see org.eclipse.emf.ecore.EPackage.Registry
-   * @see org.ustok.checklist.model.protocol.ProtocolPackage#eNS_URI
+   * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#eNS_URI
    * @see #init()
    * @generated
    */

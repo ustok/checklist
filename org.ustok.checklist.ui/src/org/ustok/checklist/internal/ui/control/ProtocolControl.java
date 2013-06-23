@@ -13,8 +13,8 @@ import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.widgets.Composite;
-import org.ustok.checklist.model.protocol.Protocol;
-import org.ustok.checklist.model.protocol.ProtocolNode;
+import org.ustok.checklist.core.model.protocol.Protocol;
+import org.ustok.checklist.core.model.protocol.ProtocolNode;
 
 /**
  * Control to show/edit a protocol.

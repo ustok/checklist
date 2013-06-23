@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg;
+package org.ustok.checklist.core.model.checklistcfg;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -25,9 +25,9 @@ import org.eclipse.emf.ecore.EReference;
  * <!-- begin-model-doc -->
  * Model object. Contains the root node.
  * <!-- end-model-doc -->
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgFactory
+ * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgFactory
  * @model kind="package"
- *        annotation="http://www.eclipse.org/emf/2002/GenModel copyrightFields='true' copyrightText='Copyright 2013 by Ustok.org.\nAll rights reserved.\n' basePackage='org.ustok.checklist.model'"
+ *        annotation="http://www.eclipse.org/emf/2002/GenModel copyrightFields='true' copyrightText='Copyright 2013 by Ustok.org.\nAll rights reserved.\n' basePackage='org.ustok.checklist.core.model'"
  *        annotation="http://www.eclipse.org/emf/2011/Xcore GenModel='http://www.eclipse.org/emf/2002/GenModel'"
  * @generated
  */
@@ -54,7 +54,7 @@ public interface ChecklistcfgPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  String eNS_URI = "org.ustok.checklist.model.checklistcfg";
+  String eNS_URI = "org.ustok.checklist.core.model.checklistcfg";
 
   /**
    * The package namespace name.
@@ -70,14 +70,14 @@ public interface ChecklistcfgPackage extends EPackage
    * <!-- end-user-doc -->
    * @generated
    */
-  ChecklistcfgPackage eINSTANCE = org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgPackageImpl.init();
+  ChecklistcfgPackage eINSTANCE = org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgPackageImpl.init();
 
   /**
-   * The meta object id for the '{@link org.ustok.checklist.model.checklistcfg.impl.CLCfgImpl <em>CL Cfg</em>}' class.
+   * The meta object id for the '{@link org.ustok.checklist.core.model.checklistcfg.impl.CLCfgImpl <em>CL Cfg</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.ustok.checklist.model.checklistcfg.impl.CLCfgImpl
-   * @see org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLCfg()
+   * @see org.ustok.checklist.core.model.checklistcfg.impl.CLCfgImpl
+   * @see org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLCfg()
    * @generated
    */
   int CL_CFG = 0;
@@ -110,11 +110,11 @@ public interface ChecklistcfgPackage extends EPackage
   int CL_CFG_OPERATION_COUNT = 0;
 
   /**
-   * The meta object id for the '{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl <em>CL Node</em>}' class.
+   * The meta object id for the '{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl <em>CL Node</em>}' class.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
-   * @see org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl
-   * @see org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLNode()
+   * @see org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl
+   * @see org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLNode()
    * @generated
    */
   int CL_NODE = 1;
@@ -193,97 +193,97 @@ public interface ChecklistcfgPackage extends EPackage
 
 
   /**
-   * Returns the meta object for class '{@link org.ustok.checklist.model.checklistcfg.CLCfg <em>CL Cfg</em>}'.
+   * Returns the meta object for class '{@link org.ustok.checklist.core.model.checklistcfg.CLCfg <em>CL Cfg</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for class '<em>CL Cfg</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLCfg
+   * @see org.ustok.checklist.core.model.checklistcfg.CLCfg
    * @generated
    */
   EClass getCLCfg();
 
   /**
-   * Returns the meta object for the containment reference '{@link org.ustok.checklist.model.checklistcfg.CLCfg#getRoot <em>Root</em>}'.
+   * Returns the meta object for the containment reference '{@link org.ustok.checklist.core.model.checklistcfg.CLCfg#getRoot <em>Root</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference '<em>Root</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLCfg#getRoot()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLCfg#getRoot()
    * @see #getCLCfg()
    * @generated
    */
   EReference getCLCfg_Root();
 
   /**
-   * Returns the meta object for class '{@link org.ustok.checklist.model.checklistcfg.CLNode <em>CL Node</em>}'.
+   * Returns the meta object for class '{@link org.ustok.checklist.core.model.checklistcfg.CLNode <em>CL Node</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for class '<em>CL Node</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode
    * @generated
    */
   EClass getCLNode();
 
   /**
-   * Returns the meta object for the attribute '{@link org.ustok.checklist.model.checklistcfg.CLNode#getText <em>Text</em>}'.
+   * Returns the meta object for the attribute '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getText <em>Text</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Text</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getText()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getText()
    * @see #getCLNode()
    * @generated
    */
   EAttribute getCLNode_Text();
 
   /**
-   * Returns the meta object for the attribute '{@link org.ustok.checklist.model.checklistcfg.CLNode#getDescription <em>Description</em>}'.
+   * Returns the meta object for the attribute '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getDescription <em>Description</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the attribute '<em>Description</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getDescription()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getDescription()
    * @see #getCLNode()
    * @generated
    */
   EAttribute getCLNode_Description();
 
   /**
-   * Returns the meta object for the containment reference list '{@link org.ustok.checklist.model.checklistcfg.CLNode#getChildren <em>Children</em>}'.
+   * Returns the meta object for the containment reference list '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getChildren <em>Children</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the containment reference list '<em>Children</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getChildren()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getChildren()
    * @see #getCLNode()
    * @generated
    */
   EReference getCLNode_Children();
 
   /**
-   * Returns the meta object for the container reference '{@link org.ustok.checklist.model.checklistcfg.CLNode#getParent <em>Parent</em>}'.
+   * Returns the meta object for the container reference '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getParent <em>Parent</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the container reference '<em>Parent</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getParent()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getParent()
    * @see #getCLNode()
    * @generated
    */
   EReference getCLNode_Parent();
 
   /**
-   * Returns the meta object for the reference '{@link org.ustok.checklist.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}'.
+   * Returns the meta object for the reference '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the reference '<em>Target If Passed</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getTargetIfPassed()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getTargetIfPassed()
    * @see #getCLNode()
    * @generated
    */
   EReference getCLNode_TargetIfPassed();
 
   /**
-   * Returns the meta object for the reference '{@link org.ustok.checklist.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}'.
+   * Returns the meta object for the reference '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @return the meta object for the reference '<em>Traget If Failed</em>'.
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getTragetIfFailed()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getTragetIfFailed()
    * @see #getCLNode()
    * @generated
    */
@@ -314,11 +314,11 @@ public interface ChecklistcfgPackage extends EPackage
   interface Literals
   {
     /**
-     * The meta object literal for the '{@link org.ustok.checklist.model.checklistcfg.impl.CLCfgImpl <em>CL Cfg</em>}' class.
+     * The meta object literal for the '{@link org.ustok.checklist.core.model.checklistcfg.impl.CLCfgImpl <em>CL Cfg</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.ustok.checklist.model.checklistcfg.impl.CLCfgImpl
-     * @see org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLCfg()
+     * @see org.ustok.checklist.core.model.checklistcfg.impl.CLCfgImpl
+     * @see org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLCfg()
      * @generated
      */
     EClass CL_CFG = eINSTANCE.getCLCfg();
@@ -332,11 +332,11 @@ public interface ChecklistcfgPackage extends EPackage
     EReference CL_CFG__ROOT = eINSTANCE.getCLCfg_Root();
 
     /**
-     * The meta object literal for the '{@link org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl <em>CL Node</em>}' class.
+     * The meta object literal for the '{@link org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl <em>CL Node</em>}' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see org.ustok.checklist.model.checklistcfg.impl.CLNodeImpl
-     * @see org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLNode()
+     * @see org.ustok.checklist.core.model.checklistcfg.impl.CLNodeImpl
+     * @see org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgPackageImpl#getCLNode()
      * @generated
      */
     EClass CL_NODE = eINSTANCE.getCLNode();

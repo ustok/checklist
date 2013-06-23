@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol;
+package org.ustok.checklist.core.model.protocol;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -19,7 +19,7 @@ import org.eclipse.emf.common.util.Enumerator;
  * <!-- begin-model-doc -->
  * Status to be used by protocol nodes.
  * <!-- end-model-doc -->
- * @see org.ustok.checklist.model.protocol.ProtocolPackage#getState()
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage#getState()
  * @model
  * @generated
  */

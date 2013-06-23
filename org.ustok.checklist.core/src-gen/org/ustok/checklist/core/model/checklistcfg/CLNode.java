@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg;
+package org.ustok.checklist.core.model.checklistcfg;
 
 import org.eclipse.emf.common.util.EList;
 
@@ -21,16 +21,16 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getText <em>Text</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getDescription <em>Description</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getChildren <em>Children</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getParent <em>Parent</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}</li>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getText <em>Text</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getDescription <em>Description</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getChildren <em>Children</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getParent <em>Parent</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode()
+ * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode()
  * @model
  * @generated
  */
@@ -52,14 +52,14 @@ public interface CLNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Text</em>' attribute.
    * @see #setText(String)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_Text()
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_Text()
    * @model unique="false"
    * @generated
    */
   String getText();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLNode#getText <em>Text</em>}' attribute.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getText <em>Text</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Text</em>' attribute.
@@ -77,14 +77,14 @@ public interface CLNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Description</em>' attribute.
    * @see #setDescription(String)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_Description()
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_Description()
    * @model unique="false"
    * @generated
    */
   String getDescription();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLNode#getDescription <em>Description</em>}' attribute.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getDescription <em>Description</em>}' attribute.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Description</em>' attribute.
@@ -95,16 +95,16 @@ public interface CLNode extends EObject
 
   /**
    * Returns the value of the '<em><b>Children</b></em>' containment reference list.
-   * The list contents are of type {@link org.ustok.checklist.model.checklistcfg.CLNode}.
-   * It is bidirectional and its opposite is '{@link org.ustok.checklist.model.checklistcfg.CLNode#getParent <em>Parent</em>}'.
+   * The list contents are of type {@link org.ustok.checklist.core.model.checklistcfg.CLNode}.
+   * It is bidirectional and its opposite is '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getParent <em>Parent</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * <!-- begin-model-doc -->
    * The children of the node.
    * <!-- end-model-doc -->
    * @return the value of the '<em>Children</em>' containment reference list.
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_Children()
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getParent
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_Children()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getParent
    * @model opposite="parent" containment="true"
    * @generated
    */
@@ -112,7 +112,7 @@ public interface CLNode extends EObject
 
   /**
    * Returns the value of the '<em><b>Parent</b></em>' container reference.
-   * It is bidirectional and its opposite is '{@link org.ustok.checklist.model.checklistcfg.CLNode#getChildren <em>Children</em>}'.
+   * It is bidirectional and its opposite is '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getChildren <em>Children</em>}'.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * <!-- begin-model-doc -->
@@ -120,15 +120,15 @@ public interface CLNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Parent</em>' container reference.
    * @see #setParent(CLNode)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_Parent()
-   * @see org.ustok.checklist.model.checklistcfg.CLNode#getChildren
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_Parent()
+   * @see org.ustok.checklist.core.model.checklistcfg.CLNode#getChildren
    * @model opposite="children" transient="false"
    * @generated
    */
   CLNode getParent();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLNode#getParent <em>Parent</em>}' container reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getParent <em>Parent</em>}' container reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Parent</em>' container reference.
@@ -146,14 +146,14 @@ public interface CLNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Target If Passed</em>' reference.
    * @see #setTargetIfPassed(CLNode)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_TargetIfPassed()
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_TargetIfPassed()
    * @model
    * @generated
    */
   CLNode getTargetIfPassed();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}' reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTargetIfPassed <em>Target If Passed</em>}' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Target If Passed</em>' reference.
@@ -171,14 +171,14 @@ public interface CLNode extends EObject
    * <!-- end-model-doc -->
    * @return the value of the '<em>Traget If Failed</em>' reference.
    * @see #setTragetIfFailed(CLNode)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLNode_TragetIfFailed()
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLNode_TragetIfFailed()
    * @model
    * @generated
    */
   CLNode getTragetIfFailed();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}' reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLNode#getTragetIfFailed <em>Traget If Failed</em>}' reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Traget If Failed</em>' reference.

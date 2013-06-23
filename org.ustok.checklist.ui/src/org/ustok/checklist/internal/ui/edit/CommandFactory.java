@@ -12,8 +12,8 @@ import org.eclipse.core.runtime.Assert;
 import org.eclipse.emf.common.command.AbstractCommand;
 import org.eclipse.emf.edit.command.AddCommand;
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
-import org.ustok.checklist.model.checklistcfg.CLNode;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgFactory;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgFactory;
 
 /**
  * Factory for EMF commands.

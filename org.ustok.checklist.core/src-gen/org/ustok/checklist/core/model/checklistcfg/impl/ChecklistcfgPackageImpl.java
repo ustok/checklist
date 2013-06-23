@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg.impl;
+package org.ustok.checklist.core.model.checklistcfg.impl;
 
 import org.eclipse.emf.ecore.EAttribute;
 import org.eclipse.emf.ecore.EClass;
@@ -13,10 +13,10 @@ import org.eclipse.emf.ecore.EcorePackage;
 
 import org.eclipse.emf.ecore.impl.EPackageImpl;
 
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgFactory;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgFactory;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
 
 /**
  * <!-- begin-user-doc -->
@@ -58,7 +58,7 @@ public class ChecklistcfgPackageImpl extends EPackageImpl implements Checklistcf
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @see org.eclipse.emf.ecore.EPackage.Registry
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#eNS_URI
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#eNS_URI
    * @see #init()
    * @generated
    */

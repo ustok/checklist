@@ -8,8 +8,8 @@ package org.ustok.checklist.internal.ui.edit;
 import org.eclipse.emf.common.command.AbstractCommand;
 import org.eclipse.emf.common.command.CommandStack;
 import org.eclipse.emf.transaction.TransactionalEditingDomain;
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 import org.ustok.checklist.ui.ChecklistUIActivator;
 
 /**

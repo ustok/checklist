@@ -1,6 +1,6 @@
-@GenModel(documentation = "Model object. Contains the root node.", copyrightFields="true", copyrightText="Copyright 2013 by Ustok.org.\nAll rights reserved.\n")
+@GenModel(documentation = "Model object. Contains the root node.", copyrightFields="true", copyrightText="Copyright 2013 by Ustok.org.\nAll rights reserved.\n", basePackage="org.ustok.checklist.core.model")
 
-package org.ustok.checklist.model.checklistcfg
+package org.ustok.checklist.core.model.checklistcfg
 
 annotation "http://www.eclipse.org/emf/2002/GenModel" as GenModel
 

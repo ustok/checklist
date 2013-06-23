@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg;
+package org.ustok.checklist.core.model.checklistcfg;
 
 import org.eclipse.emf.ecore.EFactory;
 
@@ -12,7 +12,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage
+ * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage
  * @generated
  */
 public interface ChecklistcfgFactory extends EFactory
@@ -30,7 +30,7 @@ public interface ChecklistcfgFactory extends EFactory
    * <!-- end-user-doc -->
    * @generated
    */
-  ChecklistcfgFactory eINSTANCE = org.ustok.checklist.model.checklistcfg.impl.ChecklistcfgFactoryImpl.init();
+  ChecklistcfgFactory eINSTANCE = org.ustok.checklist.core.model.checklistcfg.impl.ChecklistcfgFactoryImpl.init();
 
   /**
    * Returns a new object of class '<em>CL Cfg</em>'.

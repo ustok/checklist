@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg;
+package org.ustok.checklist.core.model.checklistcfg;
 
 import org.eclipse.emf.ecore.EObject;
 
@@ -19,11 +19,11 @@ import org.eclipse.emf.ecore.EObject;
  * <p>
  * The following features are supported:
  * <ul>
- *   <li>{@link org.ustok.checklist.model.checklistcfg.CLCfg#getRoot <em>Root</em>}</li>
+ *   <li>{@link org.ustok.checklist.core.model.checklistcfg.CLCfg#getRoot <em>Root</em>}</li>
  * </ul>
  * </p>
  *
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLCfg()
+ * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLCfg()
  * @model
  * @generated
  */
@@ -46,14 +46,14 @@ public interface CLCfg extends EObject
    * <!-- end-user-doc -->
    * @return the value of the '<em>Root</em>' containment reference.
    * @see #setRoot(CLNode)
-   * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage#getCLCfg_Root()
+   * @see org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage#getCLCfg_Root()
    * @model containment="true"
    * @generated
    */
   CLNode getRoot();
 
   /**
-   * Sets the value of the '{@link org.ustok.checklist.model.checklistcfg.CLCfg#getRoot <em>Root</em>}' containment reference.
+   * Sets the value of the '{@link org.ustok.checklist.core.model.checklistcfg.CLCfg#getRoot <em>Root</em>}' containment reference.
    * <!-- begin-user-doc -->
    * <!-- end-user-doc -->
    * @param value the new value of the '<em>Root</em>' containment reference.

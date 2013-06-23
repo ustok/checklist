@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol.util;
+package org.ustok.checklist.core.model.protocol.util;
 
 import org.eclipse.emf.common.notify.Adapter;
 import org.eclipse.emf.common.notify.Notifier;
@@ -12,14 +12,14 @@ import org.eclipse.emf.common.notify.impl.AdapterFactoryImpl;
 
 import org.eclipse.emf.ecore.EObject;
 
-import org.ustok.checklist.model.protocol.*;
+import org.ustok.checklist.core.model.protocol.*;
 
 /**
  * <!-- begin-user-doc -->
  * The <b>Adapter Factory</b> for the model.
  * It provides an adapter <code>createXXX</code> method for each class of the model.
  * <!-- end-user-doc -->
- * @see org.ustok.checklist.model.protocol.ProtocolPackage
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage
  * @generated
  */
 public class ProtocolAdapterFactory extends AdapterFactoryImpl
@@ -117,13 +117,13 @@ public class ProtocolAdapterFactory extends AdapterFactoryImpl
 
 
   /**
-   * Creates a new adapter for an object of class '{@link org.ustok.checklist.model.protocol.Protocol <em>Protocol</em>}'.
+   * Creates a new adapter for an object of class '{@link org.ustok.checklist.core.model.protocol.Protocol <em>Protocol</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.ustok.checklist.model.protocol.Protocol
+   * @see org.ustok.checklist.core.model.protocol.Protocol
    * @generated
    */
   public Adapter createProtocolAdapter()
@@ -132,13 +132,13 @@ public class ProtocolAdapterFactory extends AdapterFactoryImpl
   }
 
   /**
-   * Creates a new adapter for an object of class '{@link org.ustok.checklist.model.protocol.ProtocolNode <em>Node</em>}'.
+   * Creates a new adapter for an object of class '{@link org.ustok.checklist.core.model.protocol.ProtocolNode <em>Node</em>}'.
    * <!-- begin-user-doc -->
    * This default implementation returns null so that we can easily ignore cases;
    * it's useful to ignore a case when inheritance will catch all the cases anyway.
    * <!-- end-user-doc -->
    * @return the new adapter.
-   * @see org.ustok.checklist.model.protocol.ProtocolNode
+   * @see org.ustok.checklist.core.model.protocol.ProtocolNode
    * @generated
    */
   public Adapter createProtocolNodeAdapter()

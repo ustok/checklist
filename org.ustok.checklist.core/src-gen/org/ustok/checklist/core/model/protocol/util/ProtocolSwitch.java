@@ -3,14 +3,14 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.checklistcfg.util;
+package org.ustok.checklist.core.model.protocol.util;
 
 import org.eclipse.emf.ecore.EObject;
 import org.eclipse.emf.ecore.EPackage;
 
 import org.eclipse.emf.ecore.util.Switch;
 
-import org.ustok.checklist.model.checklistcfg.*;
+import org.ustok.checklist.core.model.protocol.*;
 
 /**
  * <!-- begin-user-doc -->
@@ -22,10 +22,10 @@ import org.ustok.checklist.model.checklistcfg.*;
  * until a non-null result is returned,
  * which is the result of the switch.
  * <!-- end-user-doc -->
- * @see org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage
  * @generated
  */
-public class ChecklistcfgSwitch<T> extends Switch<T>
+public class ProtocolSwitch<T> extends Switch<T>
 {
   /**
    * <!-- begin-user-doc -->
@@ -40,7 +40,7 @@ public class ChecklistcfgSwitch<T> extends Switch<T>
    * <!-- end-user-doc -->
    * @generated
    */
-  protected static ChecklistcfgPackage modelPackage;
+  protected static ProtocolPackage modelPackage;
 
   /**
    * Creates an instance of the switch.
@@ -48,11 +48,11 @@ public class ChecklistcfgSwitch<T> extends Switch<T>
    * <!-- end-user-doc -->
    * @generated
    */
-  public ChecklistcfgSwitch()
+  public ProtocolSwitch()
   {
     if (modelPackage == null)
     {
-      modelPackage = ChecklistcfgPackage.eINSTANCE;
+      modelPackage = ProtocolPackage.eINSTANCE;
     }
   }
 
@@ -82,17 +82,17 @@ public class ChecklistcfgSwitch<T> extends Switch<T>
   {
     switch (classifierID)
     {
-      case ChecklistcfgPackage.CL_CFG:
+      case ProtocolPackage.PROTOCOL:
       {
-        CLCfg clCfg = (CLCfg)theEObject;
-        T result = caseCLCfg(clCfg);
+        Protocol protocol = (Protocol)theEObject;
+        T result = caseProtocol(protocol);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
-      case ChecklistcfgPackage.CL_NODE:
+      case ProtocolPackage.PROTOCOL_NODE:
       {
-        CLNode clNode = (CLNode)theEObject;
-        T result = caseCLNode(clNode);
+        ProtocolNode protocolNode = (ProtocolNode)theEObject;
+        T result = caseProtocolNode(protocolNode);
         if (result == null) result = defaultCase(theEObject);
         return result;
       }
@@ -101,33 +101,33 @@ public class ChecklistcfgSwitch<T> extends Switch<T>
   }
 
   /**
-   * Returns the result of interpreting the object as an instance of '<em>CL Cfg</em>'.
+   * Returns the result of interpreting the object as an instance of '<em>Protocol</em>'.
    * <!-- begin-user-doc -->
    * This implementation returns null;
    * returning a non-null result will terminate the switch.
    * <!-- end-user-doc -->
    * @param object the target of the switch.
-   * @return the result of interpreting the object as an instance of '<em>CL Cfg</em>'.
+   * @return the result of interpreting the object as an instance of '<em>Protocol</em>'.
    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
    * @generated
    */
-  public T caseCLCfg(CLCfg object)
+  public T caseProtocol(Protocol object)
   {
     return null;
   }
 
   /**
-   * Returns the result of interpreting the object as an instance of '<em>CL Node</em>'.
+   * Returns the result of interpreting the object as an instance of '<em>Node</em>'.
    * <!-- begin-user-doc -->
    * This implementation returns null;
    * returning a non-null result will terminate the switch.
    * <!-- end-user-doc -->
    * @param object the target of the switch.
-   * @return the result of interpreting the object as an instance of '<em>CL Node</em>'.
+   * @return the result of interpreting the object as an instance of '<em>Node</em>'.
    * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
    * @generated
    */
-  public T caseCLNode(CLNode object)
+  public T caseProtocolNode(ProtocolNode object)
   {
     return null;
   }
@@ -149,4 +149,4 @@ public class ChecklistcfgSwitch<T> extends Switch<T>
     return null;
   }
 
-} //ChecklistcfgSwitch
+} //ProtocolSwitch

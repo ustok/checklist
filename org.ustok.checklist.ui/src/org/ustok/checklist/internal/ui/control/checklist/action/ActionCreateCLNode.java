@@ -6,10 +6,10 @@
 package org.ustok.checklist.internal.ui.control.checklist.action;
 
 import org.eclipse.jface.action.Action;
+import org.ustok.checklist.core.model.checklistcfg.CLCfg;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 import org.ustok.checklist.internal.ui.control.ChecklistControl;
 import org.ustok.checklist.internal.ui.edit.CLCfgEditingSupport;
-import org.ustok.checklist.model.checklistcfg.CLCfg;
-import org.ustok.checklist.model.checklistcfg.CLNode;
 
 /**
  * Action to create a {@link CLNode} and append it to the model.

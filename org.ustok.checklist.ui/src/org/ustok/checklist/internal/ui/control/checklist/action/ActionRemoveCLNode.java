@@ -6,7 +6,7 @@
 package org.ustok.checklist.internal.ui.control.checklist.action;
 
 import org.eclipse.jface.action.Action;
-import org.ustok.checklist.model.checklistcfg.CLNode;
+import org.ustok.checklist.core.model.checklistcfg.CLNode;
 
 /**
  * Action to remove a {@link CLNode}.

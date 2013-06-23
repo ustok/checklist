@@ -3,7 +3,7 @@
  * All rights reserved.
  * 
  */
-package org.ustok.checklist.model.protocol;
+package org.ustok.checklist.core.model.protocol;
 
 import org.eclipse.emf.ecore.EFactory;
 
@@ -12,7 +12,7 @@ import org.eclipse.emf.ecore.EFactory;
  * The <b>Factory</b> for the model.
  * It provides a create method for each non-abstract class of the model.
  * <!-- end-user-doc -->
- * @see org.ustok.checklist.model.protocol.ProtocolPackage
+ * @see org.ustok.checklist.core.model.protocol.ProtocolPackage
  * @generated
  */
 public interface ProtocolFactory extends EFactory
@@ -30,7 +30,7 @@ public interface ProtocolFactory extends EFactory
    * <!-- end-user-doc -->
    * @generated
    */
-  ProtocolFactory eINSTANCE = org.ustok.checklist.model.protocol.impl.ProtocolFactoryImpl.init();
+  ProtocolFactory eINSTANCE = org.ustok.checklist.core.model.protocol.impl.ProtocolFactoryImpl.init();
 
   /**
    * Returns a new object of class '<em>Protocol</em>'.

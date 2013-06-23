@@ -8,8 +8,8 @@ package org.ustok.checklist.core;
 import org.eclipse.emf.ecore.EPackage;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import org.ustok.checklist.model.checklistcfg.ChecklistcfgPackage;
-import org.ustok.checklist.model.protocol.ProtocolPackage;
+import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
+import org.ustok.checklist.core.model.protocol.ProtocolPackage;
 
 /**
  * Activator for the bundle.
