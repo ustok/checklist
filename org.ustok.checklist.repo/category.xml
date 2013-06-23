@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.ustok.checklist.feature_1.0.0.qualifier.jar" id="org.ustok.checklist.feature" version="1.0.0.qualifier">
+      <category name="Ustok"/>
+   </feature>
+   <category-def name="Ustok" label="Ustok">
+      <description>
+         Ustok development center.
+      </description>
+   </category-def>
+</site>
