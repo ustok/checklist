@@ -9,19 +9,6 @@
 
 <plugin>
 
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <package
-            uri="org.ustok.checklist.model.protocol"
-            class="org.ustok.checklist.core.model.protocol.ProtocolPackage"
-            genModel="model/Protocol.xcore"/>
-   </extension>
 
-   <extension point="org.eclipse.emf.ecore.generated_package">
-      <!-- @generated ChecklistCfg -->
-      <package
-            uri="org.ustok.checklist.core.model.checklistcfg"
-            class="org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage"
-            genModel="model/ChecklistCfg.xcore"/>
-   </extension>
 
 </plugin>

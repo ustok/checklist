@@ -9,7 +9,7 @@ import org.eclipse.jface.viewers.LabelProvider;
 import org.eclipse.swt.graphics.Image;
 import org.ustok.checklist.core.model.checklistcfg.CLCfg;
 import org.ustok.checklist.core.model.checklistcfg.CLNode;
-import org.ustok.checklist.internal.ui.util.StringUtil;
+import org.ustok.checklist.protocol.internal.ui.util.StringUtil;
 
 /**
  * Label provider for {@link CLCfg} models.

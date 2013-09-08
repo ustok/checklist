@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/org.ustok.checklist.cfg.dsl/src-gen" editDirectory="/org.ustok.checklist.cfg.dsl.edit/src"
+    editorDirectory="/org.ustok.checklist.cfg.dsl.editor/src" modelPluginID="org.ustok.checklist.cfg.dsl"
+    forceOverwrite="true" modelName="Checklist" updateClasspath="false" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    complianceLevel="5.0" copyrightFields="false" editPluginID="org.ustok.checklist.cfg.dsl.edit"
+    editorPluginID="org.ustok.checklist.cfg.dsl.editor" runtimeVersion="2.9">
+  <genPackages prefix="Checklist" basePackage="org.ustok.checklist.cfg" disposableProviderFactory="true"
+      fileExtensions="checklist" ecorePackage="Checklist.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="Checklist.ecore#//StepType">
+      <genEnumLiterals ecoreEnumLiteral="Checklist.ecore#//StepType/simple"/>
+      <genEnumLiterals ecoreEnumLiteral="Checklist.ecore#//StepType/container"/>
+    </genEnums>
+    <genClasses ecoreClass="Checklist.ecore#//Model">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Checklist.ecore#//Model/title"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Checklist.ecore#//Model/steps"/>
+    </genClasses>
+    <genClasses ecoreClass="Checklist.ecore#//Title">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Checklist.ecore#//Title/title"/>
+    </genClasses>
+    <genClasses ecoreClass="Checklist.ecore#//Step">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Checklist.ecore#//Step/stepId"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Checklist.ecore#//Step/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Checklist.ecore#//Step/title"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute Checklist.ecore#//Step/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference Checklist.ecore#//Step/children"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

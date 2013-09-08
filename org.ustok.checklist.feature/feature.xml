@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.ustok.checklist.feature"
-      label="Checklist"
+      label="Checklist Protocols"
       version="1.0.0.qualifier"
       provider-name="Ustok.org">
 
    <description url="http://www.ustok.org/">
-      Checklist lets you define checklists, process them and export the process protocols.
+      Checklist Protocols lets you define checklists, process them and export the protocols.
    </description>
 
    <copyright>
@@ -23,39 +23,52 @@ All rights reserved.
    </url>
 
    <plugin
-         id="org.ustok.checklist.core"
+         id="org.ustok.checklist.cfg.dsl"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
          
    <plugin
-         id="org.ustok.checklist.core.source"
+         id="org.ustok.checklist.cfg.dsl.source"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
          
    <plugin
-         id="org.ustok.checklist.core.io"
+         id="org.ustok.checklist.cfg.dsl.ui"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
          
    <plugin
-         id="org.ustok.checklist.core.io.source"
+         id="org.ustok.checklist.cfg.dsl.ui.source"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
          
    <plugin
-         id="org.ustok.checklist.ui"
+         id="org.ustok.checklist.protocol.core"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
          
    <plugin
-         id="org.ustok.checklist.ui.source"
+         id="org.ustok.checklist.protocol.core.source"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.protocol.ui"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.protocol.ui.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
 
 </feature>

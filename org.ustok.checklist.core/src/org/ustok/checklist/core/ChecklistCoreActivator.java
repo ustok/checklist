@@ -5,11 +5,8 @@
 
 package org.ustok.checklist.core;
 
-import org.eclipse.emf.ecore.EPackage;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
-import org.ustok.checklist.core.model.checklistcfg.ChecklistcfgPackage;
-import org.ustok.checklist.core.model.protocol.ProtocolPackage;
 
 /**
  * Activator for the bundle.
@@ -27,18 +24,12 @@ public class ChecklistCoreActivator implements BundleActivator {
 	public void start(BundleContext pContext) throws Exception {
 		sharedInstance = this;
 		fContext = pContext;
-		registerEmfPackages();
 	}
 
 	@Override
 	public void stop(BundleContext pContext) throws Exception {
 		sharedInstance = null;
 		fContext = null;
-	}
-
-	private void registerEmfPackages() {
-		EPackage.Registry.INSTANCE.put(ChecklistcfgPackage.eNS_URI, ChecklistcfgPackage.eINSTANCE);
-		EPackage.Registry.INSTANCE.put(ProtocolPackage.eNS_URI, ProtocolPackage.eINSTANCE);
 	}
 
 	/**

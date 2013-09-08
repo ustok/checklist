@@ -19,7 +19,7 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Text;
 import org.ustok.checklist.core.model.protocol.ProtocolNode;
 import org.ustok.checklist.core.model.protocol.State;
-import org.ustok.checklist.internal.ui.util.StringUtil;
+import org.ustok.checklist.protocol.internal.ui.util.StringUtil;
 
 /**
  * Control for the currently selected {@link ProtocolNode}.

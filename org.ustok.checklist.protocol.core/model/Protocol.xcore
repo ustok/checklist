@@ -1,0 +1,51 @@
+@GenModel(documentation = "Protocol", copyrightFields="true", copyrightText="Copyright 2013 by Ustok.org.\nAll rights reserved.\n", basePackage="org.ustok.checklist.core.model")
+
+package org.ustok.checklist.core.model.protocol
+
+import org.ustok.checklist.cfg.checklist.Model
+import org.ustok.checklist.cfg.checklist.Step
+
+annotation "http://www.eclipse.org/emf/2002/GenModel" as GenModel
+
+@GenModel(documentation = "Protocol")
+class Protocol {
+	@GenModel(documentation = "Protocol nodes")
+	contains ProtocolNode[] nodes
+	
+	@GenModel(documentation = "Checklist model. Each protocol node refers to a step in the checklist model.")
+	contains Model checklistModel
+}
+
+@GenModel(documentation = "Protocol node")
+class ProtocolNode {
+	
+	@GenModel(documentation = "The information text added by the user.")
+	String info
+	
+	@GenModel(documentation = "Status for this node.")
+	Status status
+	
+	@GenModel(documentation = "The checklist model step which the protocol node refers to.")
+	refers Step step
+	
+	@GenModel(documentation = "The children of the node.")
+	contains ProtocolNode[] children opposite parent
+	
+	@GenModel(documentation = "The node parent. The root node has no parent.")
+	refers ProtocolNode parent opposite children
+	
+}
+
+@GenModel(documentation = "Status to be used by protocol nodes.")
+enum Status {
+	
+	@GenModel(documentation = "Status indicating that the corresponding node is skipped.")
+	SKIPPED = 0
+	
+	@GenModel(documentation = "Status indicating that the corresponding node is passed.")
+	OK = 1
+	
+	@GenModel(documentation = "Status indicating that the corresponding node is failed.")
+	FAILED = 2
+	
+}

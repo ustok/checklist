@@ -1,0 +1,30 @@
+grammar org.ustok.checklist.cfg.Checklist with org.eclipse.xtext.common.Terminals
+
+generate checklist "http://www.ustok.org/checklist/cfg/Checklist"
+
+Model:
+	title=Title
+	steps+=Step*;
+
+Title:
+	'title:' title=STRING ';';
+
+enum StepType:
+	simple="simple" |
+	container="container"
+
+	// simple: children will be ignored completely. This is for simple steps.
+	// container: for the protocol, the user will be asked a question. If the corresponding answer is YES, then
+	//            the sublist steps are being processed. If NO, then the sublist steps will be skipped.
+;
+
+Step:
+	'step:' stepId=ID '{'
+	'type:' type=StepType
+	'title:' title=STRING
+	('description:' description=STRING)?
+	('children:' '{' children+=Step* '}')?
+	'}';
+	
+	
+	
