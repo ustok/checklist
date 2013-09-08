@@ -10,6 +10,7 @@
 	<modules>
 		<module>../org.ustok.checklist.cfg.dsl</module>
 		<module>../org.ustok.checklist.cfg.dsl.ui</module>
+		<module>../org.ustok.checklist.core</module>
 		<module>../org.ustok.checklist.core.io</module>
 		<module>../org.ustok.checklist.protocol.core</module>
 		<module>../org.ustok.checklist.protocol.ui</module>

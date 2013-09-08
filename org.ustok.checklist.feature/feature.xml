@@ -47,6 +47,30 @@ All rights reserved.
          version="1.0.0"/>
          
    <plugin
+         id="org.ustok.checklist.core"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.io"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
+         id="org.ustok.checklist.core.io.source"
+         download-size="0"
+         install-size="0"
+         version="1.0.0"/>
+         
+   <plugin
          id="org.ustok.checklist.protocol.core"
          download-size="0"
          install-size="0"
