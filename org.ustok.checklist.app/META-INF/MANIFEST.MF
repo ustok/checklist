@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Checklist App
+Bundle-SymbolicName: org.ustok.checklist.app;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Ustok.org
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.ui,
+ org.ustok.checklist.cfg.dsl;bundle-version="1.0.0",
+ org.ustok.checklist.cfg.dsl.ui;bundle-version="1.0.0",
+ org.ustok.checklist.core.io;bundle-version="1.0.0",
+ org.ustok.checklist.protocol.core;bundle-version="1.0.0",
+ org.ustok.checklist.protocol.ui;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

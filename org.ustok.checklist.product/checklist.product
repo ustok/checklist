@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?pde version="3.5"?>
+
+<product name="Protocols" uid="org.ustok.checklist.product" id="org.ustok.checklist.app.checklist_product" application="org.ustok.checklist.app.application" version="1.0.0.qualifier" useFeatures="true" includeLaunchers="true">
+
+   <aboutInfo>
+      <text>
+         Checklist Protocols
+
+Copyright 2013 Ustok.org
+www.ustok.org
+      </text>
+   </aboutInfo>
+
+   <configIni use="default">
+   </configIni>
+
+   <launcherArgs>
+      <programArgs>-consoleLog</programArgs>
+      <vmArgs>-Xms40m -Xmx512m -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgs>
+      <vmArgsMac>-Xms40m -Xmx512m -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts</vmArgsMac>
+      <vmArgsWin>-Xms40m -Xmx512m -XstartOnFirstThread</vmArgsWin>
+   </launcherArgs>
+
+   <windowImages i16="/org.ustok.checklist.product/icons/protocols2-16.png" i32="/org.ustok.checklist.product/icons/protocols2-32.png" i48="/org.ustok.checklist.product/icons/protocols2-48.png" i64="/org.ustok.checklist.product/icons/protocols2-64.png" i128="/org.ustok.checklist.product/icons/protocols2-128.png"/>
+
+   <splash
+      handlerType="extensible" />
+   <launcher name="protocols">
+      <macosx icon="/org.ustok.checklist.product/icons/protocols2.icns"/>
+      <solaris/>
+      <win useIco="true">
+         <ico path="/org.ustok.checklist.product/icons/protocols2.ico"/>
+         <bmp/>
+      </win>
+   </launcher>
+
+
+   <vm>
+      <macos include="false">org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7</macos>
+   </vm>
+
+   <plugins>
+   </plugins>
+
+   <features>
+      <feature id="org.ustok.checklist.feature" version="1.0.0.qualifier"/>
+      <feature id="org.eclipse.egit" version="3.0.0.201306101825-r"/>
+      <feature id="org.eclipse.cvs" version="1.4.0.v20130605-2000"/>
+      <feature id="org.eclipse.rcp" version="4.3.0.v20130605-2000"/>
+      <feature id="org.eclipse.platform" version="4.3.0.v20130605-2000"/>
+   </features>
+
+
+</product>
