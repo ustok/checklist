@@ -1,11 +1,10 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: %pluginName
+Bundle-Name: Checklist Protocol Core
 Bundle-SymbolicName: org.ustok.checklist.protocol.core;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-ClassPath: .
-Bundle-Vendor: %providerName
-Bundle-Localization: plugin
+Bundle-Vendor: Ustok.org
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Export-Package: org.ustok.checklist.core.model.protocol,
  org.ustok.checklist.core.model.protocol.impl,
