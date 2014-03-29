@@ -10,7 +10,7 @@
    </description>
 
    <copyright>
-      Copyright 2013 by Ustok.org.
+      Copyright 2013 - 2014 by Ustok.org.
 All rights reserved.
    </copyright>
 
@@ -42,18 +42,6 @@ All rights reserved.
          
    <plugin
          id="org.ustok.checklist.cfg.dsl.ui.source"
-         download-size="0"
-         install-size="0"
-         version="1.0.0"/>
-         
-   <plugin
-         id="org.ustok.checklist.core"
-         download-size="0"
-         install-size="0"
-         version="1.0.0"/>
-         
-   <plugin
-         id="org.ustok.checklist.core.source"
          download-size="0"
          install-size="0"
          version="1.0.0"/>
